@@ -21,7 +21,7 @@ UserBean loginUser=(UserBean)session.getAttribute("loginUser");
         <div>
             <a href="Main?action=main&pr=<%= loginUser.getLoginid() %>"
                 class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out">
-                マイページに進む
+                マイページに進むaaa
             </a>
         </div>
     </div>
