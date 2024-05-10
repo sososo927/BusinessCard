@@ -1,0 +1,64 @@
+@charset "UTF-8";
+body{
+	background-image:url("../img/mainback.png");
+  background-size: cover;
+}
+h1{
+    text-align: center;
+}
+/*↓マイページに移動するためのa要素のボタン*/
+.mypage {
+  transition: .3s; /* 変化時間 0.3秒 */
+  padding: 12px 24px; /* 内側の余白設定 */
+  border-radius: 12px; /* 要素の角を丸くする */
+  background-color: #2ecadf; /* 背景色指定 */
+  text-decoration: none; /* aタグの下線を非表示に */
+  color: #fff; /* 文字色 */
+  font-size: 20px; /* フォントサイズ */
+  font-weight: bold;
+  -webkit-box-shadow: 0 3px 4px 0 #666;/*iOS Safari用ボックスシャドウ*/
+  box-shadow: 0 3px 4px 0 #666;/*ボックスシャドウ*/
+
+}
+
+.mypage:hover { 
+  transition: .3s; /* 変化時間 0.3秒 */
+  background-color: #1300de; /* 背景色 */
+}
+.in{
+	margin: 0 0 0 15px;
+	height: 28px;
+	width: 9em;
+	border-bottom:1px solid #cccccc;
+	border-right:none;
+	border-left:none;
+	border-top:none;
+	border-radius:0px;
+}
+.send{
+	cursor:pointer;/*カーソルをポインターに*/
+	border-style:none;/*デフォルトのボーダークリア*/
+	font-size:130%;
+	font-weight:bold;
+	color: #fff;
+	margin:.5em .5em .5em 0;
+	padding:.3em 0 .4em;
+	height:40px;
+	width:100px;
+	background:skyblue;/*背景色を指定*/
+	-webkit-border-radius: 5px;/*iOS Safari用のボックスの角丸の指定*/
+	border-radius: 5px;/*ボックスの角丸の指定*/
+	-webkit-box-shadow: 0 2px 2px 0 #666;/*iOS Safari用ボックスシャドウ*/
+	box-shadow: 0 2px 2px 0 #666;/*ボックスシャドウ*/
+	text-shadow: 1px 1px 2px #000; /*テキストシャドウ*/
+}
+/*↓マウスオーバー時の変化。ここでは背景色だけ変更*/
+.send:hover {
+	background-color: blue;
+}
+.businessCard{
+	background-color: white;
+	width:200px;
+	border-radius: 5px;
+	box-shadow: 0 4px 4px 0 #666;
+}

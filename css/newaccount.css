@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* 角を丸くした実線の囲み枠 */
+form {
+  padding: 0.5em 1em;
+  margin-left: auto;
+  background: #FFF;
+  border: solid 2px #000000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #ccc;
+}
+
+form p{
+  padding-left: 10%;
+}
+
+h1{
+	text-align:center;
+}
+.in{
+	margin: 0 0 0 15px;
+	height: 28px;
+	width: 9em;
+	border-bottom:1px solid #cccccc;
+	border-right:none;
+	border-left:none;
+	border-top:none;
+	border-radius:0px;
+}
+.create{
+	text-align: center;
+}
+.Form-Btn{
+  padding: 1em 6em;
+  background: #FFF;
+  border: solid 1px #000000;
+  border-radius: 10px;
+}
+a {
+  color: skyblue;
+  text-decoration: none;
+}
+span{
+	color: skyblue;
+}

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+body{
+	text-align: center;
+}
+.button{
+  background: blue;
+}
+.in{
+	margin: 0 0 0 15px;
+	height: 28px;
+	width: 9em;
+	border-bottom:1px solid #cccccc;
+	border-right:none;
+	border-left:none;
+	border-top:none;
+	border-radius:0px;
+}
